@@ -18,6 +18,8 @@ Additionally, we demonstrate that DeepONet can behave like a solution propagator
 
 In this work, we have employed multi-layer autoencoders to obtain a compact latent representation of the chemical kinetics model for a given time step. The DeepONet is then trained to learn the evolving kinetics of the latent space.
 
+The AE-DeepONet code is written in TF2, while the standalone DeepONet code is in TF1.15.
+
 ## Citation
 
 If you find this GitHub repository useful for your work, please consider citing this work:
