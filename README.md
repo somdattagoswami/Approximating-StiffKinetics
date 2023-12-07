@@ -6,7 +6,7 @@
 * [Method](#method)
 * [Contact](#contact)
 
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
+** A very small set of data is put in the AE-DeepONet folder**
 
 ## General info
 
