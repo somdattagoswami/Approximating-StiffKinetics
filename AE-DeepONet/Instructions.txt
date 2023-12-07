@@ -1,0 +1,8 @@
+Instructions for running AE-DeepONet: This framework requires the code to be run in three stages. 
+
+1) First run the train_AE.py. This will run the autoencoder, and save the AE model that has the lowest test error.
+2) Next run generate_ld_dataset.py. This will use the saved AE model to generate the latent dimension of all the training and the test samples.
+3) The dataset generated in step 2 would be used to train the DeepONet.
+4) To train the DeepONet, run train_DON.py.
+
+The datasets are for both AE and DON are preprocessed in the file Dataset.py.
