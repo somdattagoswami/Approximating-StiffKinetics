@@ -6,7 +6,8 @@
 * [Method](#method)
 * [Contact](#contact)
 
-\textcolor{red}{abc}
+- in red
+- 
 ## General info
 
 This Git repository contains codes for the **'Learning stiff chemical kinetics using extended deep neural operators'** paper which can be found here: [Link](https://www.sciencedirect.com/science/article/pii/S0045782523007971?dgcid=coauthor).
