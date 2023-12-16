@@ -6,7 +6,7 @@
 * [Method](#method)
 * [Contact](#contact)
 
-**A limited dataset has been included in the AE-DeepONet folder, and readers are encouraged to utilize this dataset for running the provided code. It's important to note that the complete dataset cannot be provided at this time as this is an ongoing project. Alternatively, interested users can employ Cantera to generate data for experiments discussed in the paper.**
+**A limited dataset from Example 3 has been included in the AE-DeepONet folder, and readers are encouraged to utilize this dataset for running the provided code. It's important to note that the complete dataset cannot be provided at this time as this is an ongoing project. Alternatively, interested users can employ Cantera to generate data for experiments discussed in the paper.**
 
 ## General info
 
