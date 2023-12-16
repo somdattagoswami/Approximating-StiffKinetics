@@ -7,6 +7,9 @@ Instructions for running AE-DeepONet: This framework requires the code to be run
 
 The datasets preprocessing for both AE and DON are preprocessed in the file Dataset.py.
 
-In the data folder:
-"DataLog_ae_training.mat": This is for training the AE. Each timestep of each sample is considered a single entity.
-When training the DeepONet, we arrange the data in 250th, 500th, 750th, and 1000th steps. The training dataset for DeepONet training is "training_data_temp_eqr_log". Once the AE is training, the "training_data_temp_eqr_log.mat" is called in the "generate_ld_dataset.py" to obtain the latent dimension of the training data for DeepONet.
+The data folder has 2 mat files, one for training and the other for testing. 
+'f_train', and f_test of these two files are used to train and test the autoencoder. However, while training the autoencoder the initial conditions (initial temperature and the equivalence ratio) are separated. Only the mass fractions are trained.
+Once the autoencoder is trained, the initial conditions are concatenated to the latent dimension in the "generate_ld_dataset.py" script.
+The integrated dataset is then used to train the DeepONet. 
+
+In the script train_DON.py, we compute the accuracy of the entire framework: initial condition mapped to the 1000th time step for data from the testing_data_ds.mat, using the AE +DeepONet, and report it.
