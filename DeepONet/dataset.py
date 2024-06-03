@@ -86,7 +86,7 @@ class DataSet:
         u1000_train = [self.U1000_train[i:i+1] for i in batch_id]
         u1000_train = np.concatenate(u1000_train, axis=0)
         
-        x_train = np.reshape(np.array([0.250, 0.500, 0.750, 0.1000]),(4,1))
+        x_train = np.reshape(np.array([0.250, 0.500, 0.750, 1.0]),(4,1))
 
         return x_train, f_train, u250_train, u500_train, u750_train, u1000_train
 
